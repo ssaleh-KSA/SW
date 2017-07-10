@@ -1,0 +1,344 @@
+body {
+	font-family:  'Droid Arabic Kufi', sans-serif;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+.Page-First {
+    margin-top: 60px;
+    padding: 18px;
+}
+.input-textarea textarea {
+    width: 100%;
+    height: 200px;
+}
+/* Bootstrap Css Start */
+.col-lg-1,
+.col-lg-2,
+.col-lg-3, 
+.col-lg-4, 
+.col-lg-5, 
+.col-lg-6, 
+.col-lg-7, 
+.col-lg-8, 
+.col-lg-9, 
+.col-lg-10, 
+.col-lg-11, 
+.col-lg-12 {
+    float: right;
+}
+/* Bootstrap Css End */
+/* ======================================================================================================= */
+/* ======================================================================================================= */
+/* Admin Start */
+/* ======================================================================================================= */
+/* ======================================================================================================= */
+/* AdminLogin Page Start */
+.Admin-Login {
+    margin: 5px auto;
+    width: 450px;
+}
+/* AdminLogin Page End */
+/* Admin Page Start */
+.settings {
+    background-color: #bdb598;
+    height: 120px;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+}
+.cogs-open {
+    float: right;
+    padding-top: 24px;
+}
+.Members .panel-heading {
+    background-color: #8cbbe5;
+    color: #FFF;
+}
+.Members .panel-body {
+    background-color: #3991db;
+    color: #FFF;
+}
+.History .panel-heading {
+    background-color: #bc8be6;
+    color: #FFF;
+}
+.History .panel-body {
+    background-color: #9139db;
+    color: #FFF;
+}
+.Culture .panel-heading {
+    background-color: #e2e58c;
+    color: #FFF;
+}
+.Culture .panel-body {
+    background-color: #d9db3a;
+    color: #FFF;
+}
+.Community .panel-heading {
+    background-color: #e5a58c;
+    color: #FFF;
+}
+.Community .panel-body {
+    background-color: #dc673b;
+    color: #FFF;
+}
+.Tourism .panel-heading {
+    background-color: #d5e38b;
+    color: #FFF;
+}
+.Tourism .panel-body {
+    background-color: #c2db39;
+    color: #FFF;
+}
+.Sport .panel-heading {
+    background-color: #e689cf;
+    color: #FFF;
+}
+.Sport .panel-body {
+    background-color: #dd39bc;
+    color: #FFF;
+}
+.Websites .panel-heading {
+    background-color: #999999;
+    color: #FFF;
+}
+.Websites .panel-body {
+    background-color: #555555;
+    color: #FFF;
+}
+.SecurityAndDefense .panel-heading {
+    background-color: #e4bf8b;
+    color: #FFF;
+}
+.SecurityAndDefense .panel-body {
+    background-color: #da9838;
+    color: #FFF;
+}
+.Economy .panel-heading {
+    background-color: #a2cf7b;
+    color: #FFF;
+}
+.Economy .panel-body {
+    background-color: #71a842;
+    color: #FFF;
+}
+.Politics .panel-heading {
+    background-color: #e0c147;
+    color: #FFF;
+}
+.Politics .panel-body {
+    background-color: #f1c40f;
+    color: #FFF;
+}
+.Comments .panel-heading {
+    background-color: #9f70b2;
+    color: #FFF;
+}
+.Comments .panel-body {
+    background-color: #8e44ad;
+    color: #FFF;
+}
+.News .panel-heading {
+    background-color: #506173;
+    color: #FFF;
+}
+.News .panel-body {
+    background-color: #2c3e50;
+    color: #FFF;
+}
+.ConntactUs .panel-heading {
+    background-color: #f06f62;
+    color: #FFF;
+}
+.ConntactUs .panel-body {
+    background-color: #e74c3c;
+    color: #FFF;
+}
+.Admin-Page i {
+    float: left;
+}
+.Admin-Page .The-Box span {
+    font-size: 45px;
+}
+.Admin-Page .The-Box span a {
+    color: #FFF;
+}
+.panel-heading {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.panel-body {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Admin-Page .Admin-Alerts {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: none;
+}
+.Admin-Page .Admin-Alerts .Alert-Box {
+    background-color: #CCC;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 27px;
+    margin: 5px;
+}
+.Admin-Page .Alert-Box a {
+    position: absolute;
+    top: -16px;
+    left: 5px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #3b7535;
+    color: #FFF;
+    width: 36px;
+    border-radius: 50%;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: #111;
+    overflow: hidden;
+    transition: 0.9s;
+    padding-top: 60px;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    font-size: 55px;
+    color: #818181;
+}
+.closebtn:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.cogs-open:hover {
+    cursor: pointer;
+}
+.myhref {
+    padding: 40px 20px 0 23px;
+}
+.sidenav .myhref a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.6s;
+    padding: 6px;
+}
+.sidenav .myhref a:hover {
+    color: #f1f1f1;
+    transition: 0.9s;
+}
+.sidenav .myhref a:hover:before {
+    content: "";
+    border-width: 14px;
+    border-style: solid;
+    border-color: transparent transparent transparent #FFF;
+    position: absolute;
+    left: 0px;
+    transition: 0.9s;
+}
+.closebtn:hover {
+    cursor: pointer;
+}
+.opennav {
+    font-size: 40px;
+    color: #111;
+    cursor: pointer;
+}
+.textarea-Edit{
+    background-color: #CCC;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px dashed #000;
+    margin-bottom: 10px;
+}
+/* Admin Page End */
+/* ======================================================================================================= */
+/* ======================================================================================================= */
+/* Admin End */
+/* ======================================================================================================= */
+/* ======================================================================================================= */
+/* The navbar Section Start */
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.newnav {
+	background-color: #FFF;
+}
+.navbar-inverse {
+	background-color: #cff09e;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #000000;
+}
+.navbar-inverse .navbar-brand {
+    color: #000000;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #79bd9a;
+}
+.navbar-nav > li > .dropdown-menu {
+	padding: 0;
+    margin-left: 15px;
+}
+.navbar-nav > li > .dropdown-menu li {
+    font-size: 1.2em;
+    text-align: center;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #79bd9a;
+}
+.dropdown-menu > li > a {
+	padding: 10px 15px;
+	display: block;
+}
+/* The navbar Section End */
+/* Footer Section Start */
+footer .block-footer {
+    text-align: center;
+    color: #5d963f;
+    background-color: #383838;
+    height: 220px;
+}
+footer .block-footer i {
+    font-size: 60px;
+    padding: 0 0 0 12px;
+    margin: 50px 0 0 0;
+    color: #000;
+}
+footer .block-footer i:hover {
+    color: #CCC;
+}
+footer .block-footer .sections-links {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+footer .block-footer .sections-links a {
+    color: #bbdbcc;
+    padding: 10px;
+}
+footer .block-footer .sections-links a:hover {
+    color: #CCC
+}
+/* Footer Section End */
