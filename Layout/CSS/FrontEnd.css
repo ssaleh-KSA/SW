@@ -1,0 +1,304 @@
+body {
+	font-family:  'Droid Arabic Kufi', sans-serif;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+.Page-First {
+    margin-top: 60px;
+    border-bottom: 1px dashed #CCC;
+    padding: 18px;
+}
+.input-textarea textarea {
+    width: 100%;
+    height: 200px;
+}
+/* Bootstrap Css Start */
+.col-lg-1,
+.col-lg-2,
+.col-lg-3, 
+.col-lg-4, 
+.col-lg-5, 
+.col-lg-6, 
+.col-lg-7, 
+.col-lg-8, 
+.col-lg-9, 
+.col-lg-10, 
+.col-lg-11, 
+.col-lg-12 {
+    float: right;
+}
+/* Bootstrap Css End */
+/* The navbar Section Start */
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.newnav {
+	background-color: #FFF;
+}
+.navbar-inverse {
+	background-color: #cff09e;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #000000;
+}
+.navbar-inverse .navbar-brand {
+    color: #000000;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #79bd9a;
+}
+.navbar-nav > li > .dropdown-menu {
+	padding: 0;
+    margin-left: 15px;
+}
+.navbar-nav > li > .dropdown-menu li {
+    font-size: 1.2em;
+    text-align: center;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #79bd9a;
+}
+.dropdown-menu > li > a {
+	padding: 10px 15px;
+	display: block;
+}
+/* The navbar Section End */
+/* About Us Section Start */
+.AboutUs-Box {
+    background-color: #3b8686;
+    text-align: center;
+    line-height: 45px;
+    padding: 55px 20px 10px 20px;
+    border-radius: 10px;
+}
+.AboutUs-Box h3 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #c6d4e1;
+}
+.AboutUs-Box p {
+    color: #cff09e;
+}
+/* About Us Section End */
+/* The Sections End */
+.section-box {
+    width: 100%;
+    height: 420px;
+    background-color: #a8dba8;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.section-btn {
+    margin: 30px 0 20px 0;
+}
+.section-box hr {
+    margin: 20px;
+}
+.section-box h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #0b486b;
+}
+.section-box p {
+    color: #0b486b;
+    opacity: 0.7;
+    margin: 0 20px 10px 10px;
+}
+.section-box span {
+    color: #635b5b;
+    margin: 0 70px 0 0;
+}
+.sections-page-h1 {
+    text-align: center;
+}
+/* The Sections End */
+/* Sections Page Start */
+.Article-box {
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+}
+.Article-box:hover {
+    background-color: rgba(220, 216, 216, 0.24);
+}
+.Article-box h4 {
+    font-size: 20px
+}
+.Article-box p {
+    font-size: 15px;
+    color: #888;
+}
+.Article-box span {
+    color: #888;
+    font-size: 12px;
+}
+.Section-heading {
+    text-align: center;
+    margin-top: 70px;
+}
+/* Sections Page End */
+/* Art GET Pages Start */
+.Artcle-Page {
+    border-left: 1px dashed #CCC;
+    border-right: 1px dashed #CCC;
+}
+.Article-heading {
+    margin-top: 0;
+}
+/* Art GET Pages End */
+/* About Us Page Start */
+.About-list {
+    border-top: 1px dashed #CCC;
+    padding: 10px;
+}
+.About-list a {
+    width: 100%;
+    height: 40px;
+    background-color: #CCC;
+    margin: 5px;
+    padding: 5px;
+}
+/* About Us Page End */
+/* News Page Start */
+.News-box {
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.News-box .News-Title {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 30px 0;
+}
+.News-box .News-Date span {
+    background-color: #79bd9a;
+    margin: 0 0 0 10px;
+    font-size: 9px;
+}
+.News-box hr {
+    border-top: 2px dashed #000;
+}
+.News-box img {
+    margin-bottom: 10px;
+}
+.The-News {
+    border: 1px dashed #CCC;
+    padding: 5px;
+    background-color: #e8e8e8;
+    margin-top: 10px;
+}
+.The-News mark {
+    
+}
+/* News Page End */
+/* User Profile Start */
+.Profile-Page .user-Profile img {
+    /*position: relative;*/
+    /*top: -35px;*/
+    /*right: 200px;*/
+    border-radius: 50%;
+    z-index: 1000;
+}
+.Profile-Page .user-info2  {
+    padding: 10px;
+}
+.Profile-Page .user-Profile .user-info1 .font-box {
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    padding: 10px;
+}
+.ArtUserPro {
+    margin-top: 8px;
+}
+.Followers-Following-heding {
+    text-align: center;
+    font-size: 30px;
+}
+/* User Profile End */
+/* UserProfile Page Start */
+.Follo-And-unfollo-primary{
+    /*position: relative;*/
+    /*top: -15px;*/
+    /*right: 215px;*/
+}
+.Follo-And-unfollo-danger{
+    /*position: relative;*/
+    /*top: -15px;*/
+    /*right: 196px;*/
+}
+.Followers-And-Following {
+    padding: 10px;
+}
+.Followers-And-Following .Following-Section {
+    border: 1px solid #CCC;
+    padding: 5px;
+    width: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Followers-And-Following .Followers-Section {
+    border: 1px solid #CCC;
+    padding: 5px;
+    width: 100px; 
+    text-align: center;
+}
+/* UserProfile Page End */
+/* History Page Start */
+.textarea-Edit{
+    background-color: #CCC;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px dashed #000;
+    margin-bottom: 10px;
+}
+/* History Page End */
+/* Footer Section Start */
+footer .block-footer {
+    text-align: center;
+    color: #5d963f;
+    background-color: #383838;
+    height: 220px;
+}
+footer .block-footer i {
+    font-size: 60px;
+    padding: 0 0 0 12px;
+    margin: 50px 0 0 0;
+    color: #000;
+}
+footer .block-footer i:hover {
+    color: #CCC;
+}
+footer .block-footer .sections-links {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+footer .block-footer .sections-links a {
+    color: #bbdbcc;
+    padding: 10px;
+}
+footer .block-footer .sections-links a:hover {
+    color: #CCC
+}
+/* Footer Section End */
